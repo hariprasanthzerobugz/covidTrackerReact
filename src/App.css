@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-class {
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100% !important;
+}
+
+.convid-tracker-header {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.state-list {
+  margin-top: 7rem !important;
+}
+
+/* state list table */
+.state-list-table-header {
+  position: sticky;
+  top: 6.2rem !important;
+}
+
+@media (max-width: 858px) {
+  .state-list {
+    margin-top: 12rem !important;
+  }
+
+  .state-list-table-header {
+    top: 6rem !important;
+  }
+}
+
+@media (max-width: 708px) {
+  .state-list-table-header {
+    top: 8rem !important;
+  }
+}
+
+/* State Card */
+.state-card-title {
+  font-size: larger;
+  font-weight: 700;
+  font-family: auto;
+  color: #000;
+  text-decoration: underline;
+}
+.state-card-state-name:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+.state-card-state-name {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: initial;
+}
+.state-card-header {
+  background: inherit;
+}
+.state-card-body {
+  background: azure;
+  color: inherit;
+  font-family: cursive;
+}
+.carousel-button {
+  color: var(--primary-color) !important;
+  background: #D4F6CC !important;
+}
+.state-name {
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: 700;
+  font-family: auto;
+}
+
+/* table body */
+.state-table-body {
+  background: azure;
+  font-family: cursive;
+}
+
+:root {
+  --primary-color: #24A19C;
+  --link-hover-color: #5800FF;
+}

@@ -1,0 +1,13 @@
+.date-description {
+    font-size: 0.6rem;
+}
+
+.second-nab-bar {
+    margin-top: -1rem !important;
+}
+.top-bar-class {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    top: 2.5rem !important;
+}
