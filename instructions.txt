@@ -1,0 +1,3 @@
+open cmd and run below command
+    - npm i
+    - npm start
